@@ -1,9 +1,10 @@
-here<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>تقديم إشراف</title>
 </head>
+
 <body dir="rtl">
 
 <h1>تقديم إشراف</h1>
@@ -16,16 +17,20 @@ here<!DOCTYPE html>
 <p>العمر:</p>
 <input type="number" name="العمر" required>
 
-<p>الخبرة:</p>
-<input type="text" name="الخبرة">
-
-<p>ساعات التواجد اليومية:</p>
-<input type="text" name="ساعات_التواجد">
+<p>البلد:</p>
+<input type="text" name="البلد" required>
 
 <p>سبب التقديم:</p>
-<textarea name="سبب_التقديم" rows="5" cols="40"></textarea>
+<textarea name="سبب_التقديم" rows="5" cols="40" required></textarea>
+
+<p>كم عدد ساعات التواجد يومياً؟</p>
+<input type="text" name="ساعات_التواجد" required>
+
+<p>ضع يوزر الديسكورد الخاص بك:</p>
+<input type="text" name="discord_username" required>
 
 <br><br>
+
 <button type="submit">إرسال</button>
 
 </form>
